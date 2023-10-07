@@ -1,56 +1,53 @@
-h1, h2 {
-    color: white;
-}
+h1, h2 {    
+    color: blue
+ }
 img{
-    border: 1px solid white;
-    border-radius: 30%;
+    border: 1px solid white;    
+    border-radius: 35%;
 }
 body{
-    background-color: #1e242e;
+    background-color: hsl(218, 4%, 43%);
     color: white;
 }
-.dim {
-    color: #90969b;
-    border: 1px solid white;
-    padding: 1rem;
-    margin: 1rem;
-    border-radius: 1rem;
-}
 
-.underline{
-    text-decoration: underline;
-}
-
-.styled-table {
-    border-collapse: collapse;
+/* Style the table */
+table {
     width: 100%;
-    max-width: 600px; /* Adjust this to your desired table width */
-    margin: 0 auto; /* Center the table */
-    font-family: Arial, sans-serif;
-    background-color: #16181C; /* Background color for the table */
-    color: #FFFFFF; /* Text color for the table */
-}
-
-.styled-table th {
-    background-color: #000; /* Background color for table header cells */
-    text-align: left;
-    padding: 10px;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Style table headers (th) */
+  th {
+    background-color: #383333;
+    font-weight: bold;
+    padding: 8px;
     border: 1px solid #ddd;
-}
+  }
+  
+  /* Style table data cells (td) */
+  td {
+    padding: 8px;
+    border: 2px solid #ddd;
+  }
+  
+  /* Alternate row background color */
+  tr:nth-child(even) {
+    background-color: #423e3e;
+  }
+  
+  /* Hover effect on rows */
+  tr:hover {
+    background-color: #413c3c;
+  }
+  
 
-.styled-table td {
+table {
+    background-color: #3b3838; /* Background color for table header cells */
     text-align: left;
-    padding: 10px;
-    border: 1px solid #ddd;
-}
-
-.styled-table tr:nth-child(even) {
-    background-color: #000; /* Background color for even rows */
-}
-
-.styled-table tr:hover {
-    background-color: #333; /* Background color on hover */
-}
+    padding: 10px
+    
+    }
 
 .bio {
     background-color: #333; /* Dark background color */
@@ -59,11 +56,3 @@ body{
     list-style-type: none; /* Remove default list bullet points */
 }
 
-.bio li {
-    margin-bottom: 10px; /* Add margin between list items */
-    transition: background-color 0.2s; /* Smooth transition for background color */
-}
-
-.bio li:hover {
-    background-color: #555; /* Darker background color on hover */
-}
